@@ -1,10 +1,6 @@
 import { Directive, HostListener, ElementRef, OnInit , Pipe, PipeTransform  } from '@angular/core';
 import { CurrencyPipePipe } from '../pipe/currency-pipe.pipe';
-import { async } from '@angular/core/testing';
-import { Observable, of } from 'rxjs';
-import { delay } from 'rxjs/operators';
 
-const padding = "000000";
 @Directive({
   selector: '[appCurrencyMask1]'
 })
